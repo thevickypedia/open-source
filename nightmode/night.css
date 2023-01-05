@@ -28,6 +28,10 @@
     color: #f0f0f0 !important;
     box-shadow: none;
 }
+/* Bypass font color for input tags to make the user input visible */
+.night input {
+    color: black !important;
+}
 button {
     background: transparent !important;
 }

@@ -32,6 +32,10 @@
 .night input {
     color: black !important;
 }
+/* Bypass font color for textarea tags to make the user input visible */
+.night textarea {
+    color: black !important;
+}
 button {
     background: transparent !important;
 }

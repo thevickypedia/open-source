@@ -3,12 +3,18 @@ A repository to share resources across different modules
 
 To source data from this repository please use any of the following links
 
-### For programming languages
+### For images and other data-types
 ```text
 https://raw.githubusercontent.com/thevickypedia/open-source/main/
 ```
 
-### For injecting into web UI
+Alternatively, the following can be used which will eventually redirect to `raw.githubusercontent.com`
+- URL query param, `?raw=true`, example:
+  - https://github.com/thevickypedia/open-source/blob/main/images/logout.gif?raw=true
+- URL hostname `raw.github.com`, example:
+  - https://raw.githubusercontent.com/thevickypedia/open-source/main/images/logout.gif
+
+### For CSS and JS
 
 **Format:**
 ```text

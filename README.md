@@ -14,6 +14,14 @@ Alternatively, the following can be used which will eventually redirect to `raw.
 - URL hostname `raw.github.com`, example:
   - https://raw.githubusercontent.com/thevickypedia/open-source/main/images/logout.gif
 
+It is always wise to add a fallback source when used for `img` tags in HTML
+
+```html
+<img src="https://raw.githubusercontent.com/thevickypedia/open-source/main/images/no_auth.gif"
+    onerror="this.src='https://example.com/no_auth.gif'"
+    width="200" height="170" alt="Image" class="center">
+```
+
 ### For CSS and JS
 
 **Format:**

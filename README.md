@@ -5,7 +5,11 @@ To source data from this repository please use any of the following links
 
 ### For images and other data-types
 ```text
-https://raw.githubusercontent.com/thevickypedia/open-source/main/
+https://raw.githubusercontent.com/thevickypedia/open-source/main/images/
+```
+**[OR]**
+```text
+https://thevickypedia.github.io/open-source/images/
 ```
 
 Alternatively, the following can be used which will eventually redirect to `raw.githubusercontent.com`
@@ -34,7 +38,8 @@ https://[username].github.io/[repository]/[filename].js
 <link rel="stylesheet" href="https://thevickypedia.github.io/open-source/nightmode/night.css">
 ```
 
-- `raw.github.com` cannot be used for web UI since GitHub changed the `Content-Type`
+### Without GitHub pages!
+- `raw.github.com` cannot be used for web UI, since GitHub changed the `Content-Type`
   - Refer [GitHub blog][blog]
 - Users may also experience `(failed)net::ERR_BLOCKED_BY_ORB` 
 
